@@ -2,7 +2,7 @@
 function calc() {
     const text = "Result is: ";
     this.sum = function(a, b) {
-        let result = a + b;
+        result = a + b;
         return text + "sum=" + result;
     }
     this.multiply = function(a, b) {
