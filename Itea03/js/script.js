@@ -1,25 +1,34 @@
+// const noBinding = {
+//     person: 'Ng-speedster',
+//      showText(){
+//      setTimeout(this.printInfo.bind(this),2000)
+//      },
+//      printInfo() {
+//      document.write(`Hello ${this.person}`);
+//      }
+//    }
+//    noBinding.showText();
 
-function calc() {
-    const text = "Result is: ";
-    this.sum = function(a, b) {
-        result = a + b;
-        return text + "sum=" + result;
-    }
-    this.multiply = function(a, b) {
-        result = a * b;
-        return text + "multiply=" +  result;
-    }
-    this.divide = function(a, b) {
-        result = a / b;
-        return text + "divide=" +  result;
-    }
-    this.subtraction = function(a, b) {
-        result = a - b;
-        return text + "subtraction=" +  result;
-    }
-}
-const math = new calc();
-console.log(math.sum(45, 45));
-console.log(math.multiply(5, 10));
-console.log(math.divide(333, 3));
-console.log(math.subtraction(999, 995));
+
+// let fruits = [
+//     {
+//        name: 'Lemon',
+//        color: 'Yellow'
+//     },
+//    {
+//        name: 'Banana',
+//        color: 'Yellow'
+//     },
+//    {
+//        name: 'pineapple',
+//        color: 'Brown'
+//     }
+//   ];
+//     function fruitsPrint() {
+//         document.write(`Fruit name:${this.name},  with color:  ${this.color}.` );
+//         document.write('<hr>');
+//     }
+  
+//   for (let i = 0; i < fruits.length; i++) {
+//     fruitsPrint.call(fruits[i],fruits.name, fruits[i].color);
+//   }
